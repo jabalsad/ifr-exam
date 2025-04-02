@@ -1,0 +1,863 @@
+{
+    "id": "root",
+    "title": "IFR Oral Exam Study Notes",
+    "description": "Based on IFR ACS (Airplane Single-Engine Land). Focus on Knowledge & Risk Management. Important Disclaimer: This is a study guide based on common knowledge requirements outlined in the ACS. Always refer to the official FAR/AIM, your aircraft's POH/AFM, and the current FAA IFR ACS for the most accurate and complete information. Regulations and procedures can change.",
+    "children": [
+      {
+        "id": "aod1",
+        "title": "Area of Operation I: Preflight Preparation",
+        "description": "",
+        "children": [
+          {
+            "id": "aod1_taska",
+            "title": "Task A: Pilot Qualifications",
+            "description": "(References PA.I.A.K1-K5, R1-R3)",
+            "children": [
+              {
+                "id": "aod1_taska_currency",
+                "title": "IFR Currency (61.57(c))",
+                "description": "To act as PIC under IFR or in weather less than VFR minimums: Within the preceding 6 calendar months: Performed and logged at least 6 instrument approaches, holding procedures and tasks, and intercepting and tracking courses using navigational electronic systems.",
+                "children": [
+                  {
+                    "id": "aod1_taska_currency_how",
+                    "title": "How to Maintain",
+                    "description": "Can be done in an aircraft, FTD, ATD, or FFS.",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taska_currency_grace",
+                    "title": "Grace Period",
+                    "description": "If the 6 months lapse, you have another 6 calendar months to regain currency with a safety pilot (under simulated conditions), instructor, or pilot examiner.",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taska_currency_ipc",
+                    "title": "After Grace Period (12 months total)",
+                    "description": "Instrument Proficiency Check (IPC) required by CFII, examiner, or other approved person is needed (Ref: ACS Appendix 5).",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "aod1_taska_safetypilot",
+                "title": "Safety Pilot Requirements (91.109(c))",
+                "description": "At least a Private Pilot with category/class ratings appropriate to the aircraft, current medical, and adequate vision forward and to each side. Aircraft must have dual controls.",
+                "children": []
+              },
+              {
+                "id": "aod1_taska_logtime",
+                "title": "Logging Instrument Time (61.51(g))",
+                "description": "Only log time when flying solely by reference to instruments, under actual or simulated conditions.",
+                "children": []
+              },
+              {
+                "id": "aod1_taska_logapproach",
+                "title": "Logging Approaches for Currency",
+                "description": "Must be flown in actual IMC or simulated IMC (using a view-limiting device) down to MDA/DA. Must transition to visual cues for landing or execute the full missed approach procedure. Must include initial, intermediate, and final segments. ATC vectors to final do count if flying the final segment by reference to instruments.",
+                "children": []
+              },
+              {
+                "id": "aod1_taska_risk",
+                "title": "Risk Management (Pilot Qualifications)",
+                "description": "Flying IFR without being current or proficient increases risk significantly. Complacency is a major risk factor.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "aod1_taskb",
+            "title": "Task B: Weather Information",
+            "description": "(References PA.I.B.K1-K6, R1-R3)",
+            "children": [
+              {
+                "id": "aod1_taskb_sources",
+                "title": "Sources",
+                "description": "Flight Service Station (FSS - 1-800-WX-BRIEF, 1800wxbrief.com), Aviation Weather Center (aviationweather.gov), EFBs (e.g., Foreflight, Garmin Pilot), ATC (workload permitting), ATIS/ASOS/AWOS, PIREPs, XM/ADS-B Weather (FIS-B).",
+                "children": []
+              },
+              {
+                "id": "aod1_taskb_keyproducts",
+                "title": "Key Weather Products",
+                "description": "Essential reports and forecasts for IFR flight planning and decision making.",
+                "children": [
+                  {
+                    "id": "aod1_taskb_metar",
+                    "title": "METAR",
+                    "description": "Observation, current conditions. Decode SPECI, wind, visibility, weather phenomena, sky condition, temp/dew point, altimeter, remarks (e.g., SLP, T, P).",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_taf",
+                    "title": "TAF",
+                    "description": "Forecast for specific airport (usually 5SM radius), valid 24-30 hrs. Understand forecast change groups (FM, TEMPO, PROB).",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_pirep",
+                    "title": "PIREPs (UA/UUA)",
+                    "description": "Pilot reports – crucial for turbulence, icing, cloud tops/bases. Know format.",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_gfa",
+                    "title": "Area Forecast / GFA",
+                    "description": "Area Forecast (FA - Being Phased Out, replaced by GFA): General conditions over large area. Use Graphical Forecasts for Aviation (GFA) tool on aviationweather.gov.",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_airmet",
+                    "title": "AIRMET (WA)",
+                    "description": "Significant weather potentially hazardous to light aircraft. Issued every 6 hours. Types: Sierra (IFR/Mountain Obscuration), Tango (Turbulence/Surface Winds >30kts/LLWS), Zulu (Icing/Freezing Level).",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_sigmet",
+                    "title": "SIGMET (WS)",
+                    "description": "Significant non-convective weather potentially hazardous to all aircraft. Severe Icing (not associated with T-storms), Severe/Extreme Turbulence or CAT (not associated with T-storms), Dust/Sandstorms lowering visibility < 3SM, Volcanic Ash. Valid up to 4 hours.",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_conv_sigmet",
+                    "title": "Convective SIGMET (WST)",
+                    "description": "Significant convective weather potentially hazardous to all aircraft. Thunderstorms (lines, embedded, large area coverage > 40%), Tornadoes, Hail >= 3/4\", Wind gusts >= 50 kts. Valid up to 2 hours.",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_windsaloft",
+                    "title": "Winds/Temps Aloft (FB)",
+                    "description": "Forecast winds (referenced to true north) & temperatures aloft (°C) for various altitudes. Note temps above 24,000' are negative unless preceded by '+'. Decode format (e.g., 731960 = wind 230° true @ 119 kts, temp -60°C; 9900 = light & variable winds < 5kts).",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_surface",
+                    "title": "Surface Analysis Chart",
+                    "description": "Shows observed conditions: pressure systems (Highs/Lows), fronts, winds, temperatures, dew points.",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_radar",
+                    "title": "Radar Summary Chart (SD) / NEXRAD",
+                    "description": "SD depicts precipitation type, intensity, coverage, movement (use cautiously, indicates history not future). Modern radar mosaics (NEXRAD) available via various sources are more useful and timely.",
+                    "children": []
+                  },
+                  {
+                    "id": "aod1_taskb_icingturb",
+                    "title": "Icing/Turbulence Forecasts",
+                    "description": "Specifically found on GFA tool, SIGMETs, AIRMETs (Zulu/Tango), PIREPs. Understand significance of freezing level.",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "aod1_taskb_interpretation",
+                "title": "Interpretation",
+                "description": "Assess ceilings, visibility, precipitation, icing levels/types (clear, rime, mixed), turbulence, winds, temperatures (for performance and icing considerations). Relate reports/forecasts to planned route, altitude, and time of flight.",
+                "children": []
+              },
+              {
+                "id": "aod1_taskb_risk",
+                "title": "Risk Management (Weather)",
+                "description": "Inadequate weather briefing is a primary cause of weather-related accidents. Understand limitations of forecasts (they are not guarantees) and onboard weather datalink information (latency, resolution). Have personal minimums stricter than legal requirements.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "aod1_taskc",
+            "title": "Task C: Cross-Country Flight Planning",
+            "description": "(References PA.I.C.K1-K11, R1-R5)",
+            "children": [
+              {
+                "id": "aod1_taskc_flightplan",
+                "title": "IFR Flight Plan (FAA Form 7233-4 / Electronic)",
+                "description": "Required before entering controlled airspace under IFR (91.173). File at least 30 min prior to estimated departure. File via FSS, 1800wxbrief.com, EFB apps, or ATC (less common, workload permitting). Know required information blocks (aircraft type/equipment suffixes, TAS, route, ETE, fuel onboard, alternate airports, etc.). Must be closed upon landing at non-towered airports (contact FSS/ATC). Automatically closed by ATC at towered airports.",
+                "children": []
+              },
+              {
+                "id": "aod1_taskc_equipment",
+                "title": "IFR Equipment Requirements (91.205(d))",
+                "description": "In addition to VFR Day (ATOMATOFLAMES) and VFR Night (FLAPS) equipment, IFR flight requires GRABCARDD:",
+                "children": [
+                   { "id": "aod1_taskc_equip_g", "title": "Generator/Alternator", "description": "Sufficient electrical power source.", "children": [] },
+                   { "id": "aod1_taskc_equip_r", "title": "Radios (Nav/Comm)", "description": "Navigation and communication radios suitable for the route to be flown.", "children": [] },
+                   { "id": "aod1_taskc_equip_a1", "title": "Altimeter (Sensitive)", "description": "Adjustable for barometric pressure.", "children": [] },
+                   { "id": "aod1_taskc_equip_b", "title": "Ball (Slip-skid indicator)", "description": "Part of turn coordinator or turn-and-bank indicator.", "children": [] },
+                   { "id": "aod1_taskc_equip_c", "title": "Clock (Installed)", "description": "Displays hours, minutes, and seconds; installed as part of aircraft equipment.", "children": [] },
+                   { "id": "aod1_taskc_equip_a2", "title": "Attitude Indicator", "description": "Artificial horizon.", "children": [] },
+                   { "id": "aod1_taskc_equip_r2", "title": "Rate of Turn Indicator", "description": "Turn Coordinator or Turn & Bank indicator.", "children": [] },
+                   { "id": "aod1_taskc_equip_d1", "title": "Directional Gyro (HI)", "description": "Heading Indicator.", "children": [] },
+                   { "id": "aod1_taskc_equip_d2", "title": "DME or RNAV", "description": "DME required if using VOR navigation above FL240 if VOR is required for the route. RNAV can substitute in many cases.", "children": [] }
+                ]
+              },
+               {
+                  "id": "aod1_taskc_gpsnav",
+                  "title": "GPS Navigation Specifics",
+                  "description": "For IFR flight using GPS: Ensure database is current (updates every 28 days). RAIM prediction required before flight for non-WAAS GPS used as primary IFR navigation source. WAAS GPS does not require RAIM prediction if WAAS coverage is predicted to be available along the route.",
+                  "children": []
+              },
+              {
+                "id": "aod1_taskc_docs",
+                "title": "Aircraft Documents (ARROW)",
+                "description": "Required onboard: Airworthiness Certificate, Registration Certificate, Radio Station License (Int'l flights only), Operating Limitations (POH/AFM & placards/markings), Weight & Balance data (current).",
+                "children": []
+              },
+              {
+                "id": "aod1_taskc_airworthiness",
+                "title": "Airworthiness & Inspections",
+                "description": "Ensure required inspections are current (AVIATES - Annual, VOR (30 days for IFR), 100 hr (if for hire/instruction), Altimeter/Static System (24 cal months for IFR), Transponder (24 cal months), ELT (12 cal months / 1 hr cumulative use / half battery life)). Check Airworthiness Directive (AD) compliance. Ensure required IFR equipment is operational (check MEL or Kinds of Operations Equipment List in POH/AFM if applicable, otherwise use 91.213(d) process).",
+                "children": []
+              },
+              {
+                "id": "aod1_taskc_fuel",
+                "title": "IFR Fuel Requirements (91.167)",
+                "description": "Enough fuel to fly to the first airport of intended landing, then fly from that airport to the alternate airport (if an alternate is required), and then fly for 45 minutes at normal cruising speed.",
+                "children": []
+              },
+              {
+                "id": "aod1_taskc_alternate",
+                "title": "Alternate Airport Requirements (91.169)",
+                "description": "The \"1-2-3 Rule\": An alternate airport is required on the IFR flight plan if, for the period from 1 hour before to 1 hour after your estimated time of arrival (ETA) at the destination airport, the appropriate weather forecast indicates: Ceiling less than 2000 feet AGL, AND/OR Visibility less than 3 statute miles.",
+                "children": [
+                   {
+                      "id": "aod1_taskc_alt_wx_std",
+                      "title": "Alternate Airport Weather Minimums (Standard - FAR 91.169(c))",
+                      "description": "To list an airport as an alternate, forecast weather at ETA must meet or exceed: For Precision Approach: 600 ft ceiling AND 2 SM visibility. For Non-Precision Approach: 800 ft ceiling AND 2 SM visibility. For Airport with No Instrument Approach: Ceiling and visibility must allow descent from the MEA, approach, and landing under basic VFR.",
+                      "children": []
+                   },
+                   {
+                      "id": "aod1_taskc_alt_wx_nonstd",
+                      "title": "Non-Standard Alternate Minimums",
+                      "description": "Look for the inverted triangle \"A\" symbol on instrument approach procedure charts. If present, consult the IFR Alternate Minimums section in the front of the Terminal Procedures Publication (TPP) / Chart Supplement for different minimums. Some airports may not be authorized as alternates (NA symbol or 'Alternate Not Authorized' note).",
+                      "children": []
+                   },
+                   {
+                      "id": "aod1_taskc_alt_gps",
+                      "title": "GPS Considerations for Alternates",
+                      "description": "If using GPS for non-precision approaches (e.g., LNAV) at both the destination AND the alternate airport, the aircraft must be equipped with WAAS capability. If using non-WAAS GPS, you can plan for a GPS approach at the destination OR the alternate, but not both; the other airport must have an available instrument approach that is not GPS-based.",
+                      "children": []
+                   }
+                ]
+              },
+              {
+                "id": "aod1_taskc_route",
+                "title": "Route Selection",
+                "description": "Consider FAA preferred routes (found in Chart Supplement), Victor airways (VOR-based), GPS direct routes (ensure obstacle and terrain clearance, check MEAs if applicable), SIDs (Standard Instrument Departures), and STARs (Standard Terminal Arrival Routes).",
+                "children": []
+              },
+              {
+                "id": "aod1_taskc_altitude",
+                "title": "Altitude Selection",
+                "description": "Consider MEA (Minimum Enroute Altitude - ensures obstacle clearance & NAVAID reception), MOCA (Minimum Obstruction Clearance Altitude - ensures obstacle clearance & NAVAID reception within 22 NM of VOR), OROCA (Off-Route Obstruction Clearance Altitude - guarantees obstacle clearance but not NAVAID/Comm signals), MRA (Minimum Reception Altitude - identifies intersection using off-course NAVAID), MCA (Minimum Crossing Altitude - requires climb before crossing fix), MAA (Maximum Authorized Altitude). Choose altitude based on terrain, obstacles, weather (icing levels, turbulence), winds aloft, aircraft performance, and direction of flight (91.179 - Magnetic Course 0-179° use Odd thousands MSL, 180-359° use Even thousands MSL in controlled airspace below FL290).",
+                "children": []
+              },
+              {
+                "id": "aod1_taskc_lostcomm",
+                "title": "Lost Communications Procedures Review (91.185)",
+                "description": "Crucial to review before flight. Route (AVE F): Assigned, Vectored, Expected, Filed (in order of priority). Altitude (MEA): Highest of: Minimum altitude for IFR for the segment (MEA/MOCA), Expected altitude (e.g., 'expect 8000 in 10 minutes'), Assigned altitude (last assigned by ATC).",
+                "children": []
+              },
+              {
+                "id": "aod1_taskc_risk",
+                "title": "Risk Management (Flight Planning)",
+                "description": "Risks include fuel exhaustion, flying into unexpected IMC without a solid plan or alternate, selecting an unsuitable alternate (weather, services), misinterpreting charts or minimums, improper altitude selection leading to terrain conflict or encountering unforeseen hazardous weather like icing.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aod2",
+        "title": "Area of Operation II: Preflight Procedures",
+        "description": "Checks performed before flight.",
+        "children": [
+          {
+            "id": "aod2_taska",
+            "title": "Task A: Aircraft Systems Related to IFR Operations",
+            "description": "(References PA.II.A.K1-K6, R1-R3)",
+            "children": [
+              {
+                "id": "aod2_taska_pitotstatic",
+                "title": "Pitot-Static System",
+                "description": "Provides pressure sources for Airspeed Indicator (ASI - pitot & static), Vertical Speed Indicator (VSI - static only, calibrated leak), Altimeter (static only).",
+                "children": [
+                   {
+                      "id": "aod2_taska_ps_block_pitotram", "title": "Pitot Tube Blocked (Ram air inlet only, drain hole open)", "description": "Air trapped in line vents through drain hole. Pressure drops to ambient static pressure inside pitot tube. ASI reads zero.", "children": []
+                   },
+                   {
+                      "id": "aod2_taska_ps_block_pitotboth", "title": "Pitot Tube Blocked (Ram air inlet and drain hole)", "description": "Air pressure is trapped in the pitot line. ASI acts like an altimeter: reads higher in a climb, lower in a descent.", "children": []
+                   },
+                   {
+                       "id": "aod2_taska_ps_block_static", "title": "Static Port Blocked", "description": "Altimeter freezes at the altitude where blockage occurred. VSI freezes at zero. ASI reads inaccurately: lower than actual airspeed in climb (trapped static pressure higher than outside), higher than actual airspeed in descent (trapped static pressure lower than outside).", "children": []
+                   },
+                   {
+                       "id": "aod2_taska_ps_altstatic", "title": "Alternate Static Source", "description": "Used if primary static port blocked. Usually vents inside cockpit where pressure is lower than outside. Typically reads slightly higher altitude, higher airspeed, and shows a momentary climb on VSI upon selection. Check POH for specific corrections.", "children": []
+                   }
+                ]
+              },
+              {
+                "id": "aod2_taska_vacuum",
+                "title": "Vacuum/Pressure System",
+                "description": "Typically powers Attitude Indicator and Heading Indicator in many traditional setups via gyroscopic spin. Check suction gauge for proper operating range during engine run-up. Failure (indicated by low suction) leads to instrument error/failure (precession, tumbling, unreliable readings).",
+                "children": []
+              },
+              {
+                "id": "aod2_taska_gyros",
+                "title": "Gyroscopic Instruments",
+                "description": "Operate on principles of Rigidity in Space (gyro resists changes to its plane of rotation) and Precession (force applied to spinning gyro felt 90 degrees later in direction of rotation).",
+                "children": [
+                   {
+                      "id": "aod2_taska_gyro_ai", "title": "Attitude Indicator (AI)", "description": "Shows pitch (nose relative to horizon) and roll (wings relative to horizon). Relies on rigidity in space. Errors: Small bank angle and pitch errors after a 180° turn; slight climb indication during rapid acceleration, slight descent indication during rapid deceleration (on E/W headings primarily). May tumble if pitch/bank limits exceeded. Check for stability during taxi/run-up.", "children": []
+                   },
+                   {
+                      "id": "aod2_taska_gyro_hi", "title": "Heading Indicator (HI/DG)", "description": "Senses rotation about vertical axis. Shows heading based on magnetic compass setting (must be set). Errors: Precession due to friction and earth's rotation requires periodic realignment with magnetic compass (check every 15 mins). May tumble if limits exceeded. Check for proper function during taxi turns (should indicate turns correctly).", "children": []
+                   },
+                    {
+                      "id": "aod2_taska_gyro_tc", "title": "Turn Coordinator (TC)/Turn & Bank Indicator (T&B)", "description": "Shows rate of turn (standard rate = 3°/sec) and quality of turn (slip/skid via inclinometer/ball). TC's gimbal is canted, allowing it to also show rate of roll. T&B only shows rate of turn. Often electrically powered, providing backup to vacuum AI/HI.", "children": []
+                    }
+                ]
+              },
+              {
+                "id": "aod2_taska_magcompass",
+                "title": "Magnetic Compass Errors (VDMONA)",
+                "description": "Fundamental navigation instrument, but subject to several errors.",
+                "children": [
+                    { "id": "aod2_taska_mc_v", "title": "Variation", "description": "Angular difference between True North and Magnetic North at a given location. Shown by isogonic lines on charts.", "children": [] },
+                    { "id": "aod2_taska_mc_d", "title": "Deviation", "description": "Errors caused by magnetic fields within the aircraft structure and electronics. Correction shown on compass correction card.", "children": [] },
+                    { "id": "aod2_taska_mc_m", "title": "Magnetic Dip", "description": "Earth's magnetic flux lines point downwards towards the poles, causing the compass to dip near the poles. This causes turning and acceleration errors.", "children": [] },
+                    { "id": "aod2_taska_mc_o", "title": "Oscillation", "description": "Erratic movement caused by turbulence or rough air.", "children": [] },
+                    { "id": "aod2_taska_mc_n", "title": "Northerly Turning Error (UNOS)", "description": "Caused by magnetic dip. When turning from North, compass initially lags or indicates turn in opposite direction. When turning from South, compass leads the turn. (UNOS: Undershoot North, Overshoot South). Most pronounced on N/S headings.", "children": [] },
+                    { "id": "aod2_taska_mc_a", "title": "Acceleration/Deceleration Error (ANDS)", "description": "Caused by magnetic dip. On East or West headings: Accelerating causes compass to indicate a turn towards North; Decelerating causes compass to indicate a turn towards South (ANDS: Accelerate North, Decelerate South). No error on N/S headings.", "children": [] }
+                ]
+              },
+              {
+                "id": "aod2_taska_efd",
+                "title": "Electronic Flight Displays (EFD / Glass Cockpit)",
+                "description": "Integrate multiple instruments into digital displays.",
+                "children": [
+                    { "id": "aod2_taska_efd_pfd", "title": "PFD (Primary Flight Display)", "description": "Combines attitude indicator, airspeed tape, altitude tape, vertical speed indicator, heading indicator, turn rate indicator, slip/skid, trend vectors, marker beacon annunciations, etc.", "children": [] },
+                    { "id": "aod2_taska_efd_mfd", "title": "MFD (Multi-Function Display)", "description": "Displays navigation information (moving map), weather data (FIS-B, XM), traffic information (TCAS, ADS-B In), engine instruments, checklists, system synoptics.", "children": [] },
+                    { "id": "aod2_taska_efd_ahrs", "title": "AHRS (Attitude Heading Reference System)", "description": "Provides attitude, heading, rate of turn, and slip/skid information to the PFD. Uses solid-state sensors (accelerometers, magnetometers, rate sensors) instead of traditional gyros. May have specific initialization requirements (e.g., remain stationary).", "children": [] },
+                    { "id": "aod2_taska_efd_adc", "title": "ADC (Air Data Computer)", "description": "Receives inputs from pitot tube, static ports, and outside air temperature (OAT) probe. Computes airspeed, altitude, vertical speed, OAT, TAS, etc., displaying results on the PFD.", "children": [] },
+                    { "id": "aod2_taska_efd_reversion", "title": "Reversionary Modes", "description": "System capability allowing flight instruments normally shown on one display (e.g., PFD) to be shown on another display (e.g., MFD) if one screen fails. Know how to activate this mode.", "children": [] }
+                ]
+              },
+              {
+                 "id": "aod2_taska_gps_detail",
+                 "title": "GPS Details",
+                 "description": "Global Positioning System principles: Aircraft receiver calculates position based on timing signals received from multiple satellites (minimum 4 for 3D position). RAIM (Receiver Autonomous Integrity Monitoring) verifies integrity of signals using redundant satellites (5 needed for fault detection, 6 for fault exclusion - isolating the faulty satellite). WAAS (Wide Area Augmentation System) uses ground stations to measure GPS errors and broadcasts corrections via geostationary satellites, improving accuracy and integrity, eliminating need for traditional RAIM checks when WAAS is active. Database currency is essential for IFR navigation.",
+                 "children": []
+              },
+              {
+                "id": "aod2_taska_risk",
+                "title": "Risk Management (Systems)",
+                "description": "Undetected instrument failure (especially insidious pitot-static or gyro failures), misinterpretation of complex EFD displays, over-reliance on automation leading to loss of situational awareness, failure to plan for GPS signal loss or inaccuracy.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "aod2_taskb",
+            "title": "Task B: Aircraft Flight Instruments and Navigation Equipment Checks",
+            "description": "(References PA.II.B.K1-K3, R1-R3)",
+            "children": [
+               {
+                  "id": "aod2_taskb_preflight",
+                  "title": "Preflight Checks (IFR Specific)",
+                  "description": "Systematic checks to ensure required equipment is functioning correctly before flight.",
+                  "children": [
+                      { "id": "aod2_taskb_pf_vor", "title": "VOR Check (91.171)", "description": "Required every 30 days for IFR use. Types & Tolerances: VOT (+/- 4°), Designated Ground Checkpoint (+/- 4°), Designated Airborne Checkpoint (+/- 6°), VOR Airway Check (over specified point >20NM from VOR, +/- 6°), Dual VOR Check (within 4° of each other). Must log date, place, bearing error, and signature.", "children": [] },
+                      { "id": "aod2_taskb_pf_gps", "title": "GPS Check", "description": "Check database currency (expires every 28 days). Check receiver operation, verify satellite reception. Perform RAIM prediction if using non-WAAS GPS for flight (or ensure WAAS availability predicted).", "children": [] },
+                      { "id": "aod2_taskb_pf_alt", "title": "Altimeter Check", "description": "Set to current field altimeter setting (from ATIS/ASOS/METAR). Should read within +/- 75 feet of published field elevation.", "children": [] },
+                      { "id": "aod2_taskb_pf_ai", "title": "Attitude Indicator Check", "description": "Should become erect and stable within approximately 5 minutes of power-up/engine start. Should not precess excessively during taxi turns.", "children": [] },
+                      { "id": "aod2_taskb_pf_hi", "title": "Heading Indicator Check", "description": "Set to magnetic compass heading while taxiing straight. Check for correct indication during taxi turns (turns same direction, indicates known headings). Check for excessive precession.", "children": [] },
+                      { "id": "aod2_taskb_pf_tc", "title": "Turn Coordinator Check", "description": "During taxi turns, check ball moves to outside of turn (slip). Check miniature airplane wings indicate direction of turn.", "children": [] },
+                      { "id": "aod2_taskb_pf_mc", "title": "Magnetic Compass Check", "description": "Ensure fluid is clear and compass card moves freely. Check alignment with known headings on the ground. Verify deviation card is present and legible.", "children": [] },
+                      { "id": "aod2_taskb_pf_vsi", "title": "VSI Check", "description": "Should read near zero on the ground. Note reading for reference if slightly off zero.", "children": [] },
+                      { "id": "aod2_taskb_pf_efd", "title": "EFD Check", "description": "Check for absence of any warning flags or self-test failure messages. Ensure displays appear normal and databases (Nav, Obstacle, Terrain) are current.", "children": [] }
+                  ]
+               },
+               {
+                  "id": "aod2_taskb_risk",
+                  "title": "Risk Management (Instrument Checks)",
+                  "description": "Attempting IFR flight with inaccurate or inoperative required equipment significantly increases risk. Failure to detect instrument errors during preflight checks can lead to critical problems once airborne in IMC.",
+                  "children": []
+               }
+            ]
+          },
+          {
+            "id": "aod2_taskc",
+            "title": "Task C: Instrument Cockpit Check",
+            "description": "(References PA.II.C.K1, R1)",
+            "children": [
+               {
+                   "id": "aod2_taskc_checks",
+                   "title": "Before Takeoff Check (IFR Specific)",
+                   "description": "Final check of critical instruments and navigation setup before takeoff.",
+                   "children": [
+                      {"id": "aod2_taskc_set", "title": "Set Instruments", "description": "Altimeter set to current setting, Heading Indicator aligned with magnetic compass, Navigation radios/GPS set and identified for departure procedure or initial course/fix. Autopilot settings programmed if intending immediate use.", "children": [] },
+                      {"id": "aod2_taskc_review", "title": "Review Departure", "description": "Mentally review SID or obstacle procedure, initial altitude clearance, initial heading/course, first navigation fix, and required communication frequencies.", "children": [] },
+                      {"id": "aod2_taskc_brief", "title": "Takeoff Briefing", "description": "Include standard elements plus IFR considerations: rejected takeoff plan, engine failure after takeoff plan (considering IMC), emergency return plan (approach back to departure airport if possible, especially in low IMC).", "children": [] }
+                   ]
+               },
+               {
+                   "id": "aod2_taskc_risk",
+                   "title": "Risk Management (Cockpit Check)",
+                   "description": "Rushing through checks, missing incorrect instrument settings (especially altimeter), departing into IFR without being properly configured or mentally prepared for the departure procedure.",
+                   "children": []
+               }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aod3",
+        "title": "Area of Operation III: Air Traffic Control Clearances and Procedures",
+        "description": "Interaction with ATC under IFR.",
+        "children": [
+          {
+            "id": "aod3_taska",
+            "title": "Task A: Air Traffic Control Clearances",
+            "description": "(References PA.III.A.K1-K3, R1-R2)",
+            "children": [
+              {
+                "id": "aod3_taska_obtain",
+                "title": "Obtaining IFR Clearance",
+                "description": "Obtain from: Clearance Delivery (towered), Ground Control (if CD not avail), FSS (by phone/radio before takeoff), ATC Center/Approach (airborne, workload permitting, less ideal). At non-towered airports without RCO/GCO, can request clearance with a specific 'clearance void time'.",
+                "children": []
+              },
+              {
+                "id": "aod3_taska_craft",
+                "title": "Clearance Elements (CRAFT Acronym)",
+                "description": "Standard structure of an IFR clearance: Clearance Limit (usually destination airport/fix), Route (airways, fixes, DP name), Altitude (initial, expected higher), Frequency (departure control), Transponder (squawk code).",
+                "children": []
+              },
+              {
+                "id": "aod3_taska_readback",
+                "title": "Clearance Readback",
+                "description": "Read back required elements: Altitude assignments, heading assignments, speed adjustments/restrictions, runway assignments (AIM 4-4-7, 5-5-8). Advised practice: Read back full route clearance, especially if complex or different from filed. Holding instructions must be read back, including: direction of holding from fix, fix name, course/radial/bearing, leg length (time/distance), direction of turns, and Expect Further Clearance (EFC) time.",
+                "children": []
+              },
+               {
+                  "id": "aod3_taska_amended",
+                  "title": "Amended Clearances",
+                  "description": "ATC may issue changes to your original clearance. Acknowledge receipt and read back the amended portions. If an amended clearance is unacceptable (e.g., compromises safety, aircraft capability), state \"Unable\" and provide reason, requesting an alternative if necessary.",
+                  "children": []
+               },
+              {
+                "id": "aod3_taska_risk",
+                "title": "Risk Management (Clearances)",
+                "description": "Incorrect readback leading to misunderstanding, failure to understand clearance elements, accepting a clearance that compromises safety (e.g., routing into known icing, accepting altitude below MEA/personal minimums, inability to comply with climb gradient).",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "aod3_taskb",
+            "title": "Task B: Compliance with Air Traffic Control Clearances",
+            "description": "(References PA.III.B.K1-K3, R1)",
+            "children": [
+              {
+                "id": "aod3_taskb_adherence",
+                "title": "Adherence to Clearance",
+                "description": "Maintain assigned altitude within 100 ft (IFR). Maintain assigned heading accurately. Fly route centerline. Comply promptly with speed adjustments issued by ATC. Advise ATC immediately if unable to comply with any part of a clearance.",
+                "children": []
+              },
+              {
+                "id": "aod3_taskb_reports",
+                "title": "Mandatory IFR Reports (AIM 5-3-3)",
+                "description": "Reports required at all times under IFR (Radar or Non-Radar) - Use MARVELOUS VFR C500 mnemonic:",
+                "children": [
+                    { "id": "aod3_taskb_rep_m", "title": "Missed Approach", "description": "Report executing missed approach.", "children": [] },
+                    { "id": "aod3_taskb_rep_a", "title": "Airspeed Change", "description": "Change of +/- 10 kts or 5% TAS from filed speed.", "children": [] },
+                    { "id": "aod3_taskb_rep_r", "title": "Reaching a Holding Fix", "description": "Report time and altitude/flight level upon reaching fix or clearance limit.", "children": [] },
+                    { "id": "aod3_taskb_rep_v1", "title": "Vacating an Altitude/FL", "description": "Report vacating previously assigned altitude for new assigned altitude.", "children": [] },
+                    { "id": "aod3_taskb_rep_e", "title": "ETA Change +/- 3 minutes", "description": "(Required only in non-radar environment when approach cannot be conducted via radar vectors).", "children": [] },
+                    { "id": "aod3_taskb_rep_l", "title": "Leaving an Assigned Holding Fix/Point", "description": "", "children": [] },
+                    { "id": "aod3_taskb_rep_o", "title": "Outer Marker Inbound", "description": "(Required only in non-radar environment).", "children": [] },
+                    { "id": "aod3_taskb_rep_u", "title": "Unforecast Weather", "description": "Report encountering weather conditions not forecast or hazardous conditions.", "children": [] },
+                    { "id": "aod3_taskb_rep_s", "title": "Safety of Flight", "description": "Report any information relating to the safety of flight (e.g., significant icing or turbulence).", "children": [] },
+                    { "id": "aod3_taskb_rep_v2", "title": "VFR on Top Altitude Changes", "description": "Report leaving assigned altitude when operating VFR-on-top.", "children": [] },
+                    { "id": "aod3_taskb_rep_f", "title": "Final Approach Fix Inbound", "description": "(Required only in non-radar environment).", "children": [] },
+                    { "id": "aod3_taskb_rep_r2", "title": "Radio/Navigation Failure", "description": "Report failure of navigation or communication equipment (Ref 91.187).", "children": [] },
+                    { "id": "aod3_taskb_rep_c", "title": "Compulsory Reporting Points", "description": "(Required only in non-radar environment - Solid triangles on enroute charts).", "children": [] },
+                    { "id": "aod3_taskb_rep_500", "title": "500 FPM Climb/Descent Unable", "description": "Report if unable to maintain at least 500 feet per minute climb or descent.", "children": [] }
+                ]
+              },
+               {
+                  "id": "aod3_taskb_posreports",
+                  "title": "Position Reports (Non-Radar Environment)",
+                  "description": "Required at compulsory reporting points or as requested by ATC. Use IPTANES format: Identification, Position (fix name), Time (UTC), Altitude/Flight Level, Type of flight plan (IFR), ETA over next reporting point, Name only of the subsequent reporting point.",
+                  "children": []
+               },
+              {
+                "id": "aod3_taskb_risk",
+                "title": "Risk Management (Compliance)",
+                "description": "Deviating from clearance without authorization can lead to loss of separation or conflict with terrain/obstacles. Failure to make required reports can cause confusion for ATC and potential delays or loss of separation.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "aod3_taskc",
+            "title": "Task C: Holding Procedures",
+            "description": "(References PA.III.C.K1-K6, R1-R3)",
+            "children": [
+              {
+                "id": "aod3_taskc_purpose",
+                "title": "Purpose of Holding",
+                "description": "A predetermined maneuver to keep aircraft within specified airspace while awaiting further clearance. Used for delaying aircraft, sequencing for approaches, traffic management, or weather avoidance.",
+                "children": []
+              },
+              {
+                "id": "aod3_taskc_patterns",
+                "title": "Holding Patterns",
+                "description": "Standard Pattern: Right turns. Inbound leg timing: 1 minute at or below 14,000' MSL; 1.5 minutes above 14,000' MSL. DME holds use specified distances for leg length instead of time. Non-Standard Pattern: Left turns, specified by ATC or chart notation.",
+                "children": []
+              },
+              {
+                "id": "aod3_taskc_entries",
+                "title": "Holding Entries",
+                "description": "Determined by aircraft heading upon arrival at the holding fix relative to the holding course.",
+                "children": [
+                   { "id": "aod3_taskc_entry_direct", "title": "Direct Entry", "description": "Arriving within the 70° sector on the holding side relative to the inbound course. Turn directly to follow the holding pattern.", "children": [] },
+                   { "id": "aod3_taskc_entry_parallel", "title": "Parallel Entry", "description": "Arriving within the sector parallel to the holding course on the non-holding side. Cross the fix, turn to parallel the holding course outbound for appropriate time/distance, then turn more than 180° towards the holding side to intercept the inbound course.", "children": [] },
+                   { "id": "aod3_taskc_entry_teardrop", "title": "Teardrop (Offset) Entry", "description": "Arriving from the remaining sector. Cross the fix, turn outbound to a heading 30° offset from the outbound course towards the holding side, fly for appropriate time/distance, then turn in direction of holding turns to intercept the inbound course.", "children": [] }
+                ]
+              },
+              {
+                "id": "aod3_taskc_timing",
+                "title": "Leg Timing",
+                "description": "Start timing the outbound leg when abeam the fix or upon completing the outbound turn, whichever occurs later. Adjust the outbound leg time as needed to achieve the correct inbound leg time (1 min or 1.5 min).",
+                "children": []
+              },
+               {
+                  "id": "aod3_taskc_wind",
+                  "title": "Wind Correction",
+                  "description": "Apply appropriate drift correction on inbound leg. On the outbound leg, apply triple the inbound wind correction angle to compensate (e.g., 5° inbound correction = 15° outbound correction in opposite direction relative to course).",
+                  "children": []
+               },
+              {
+                "id": "aod3_taskc_speeds",
+                "title": "Maximum Holding Speeds (AIM 5-3-8)",
+                "description": "MHA (Minimum Holding Altitude) through 6,000' MSL: 200 KIAS. 6,001' MSL through 14,000' MSL: 230 KIAS. Above 14,000' MSL: 265 KIAS. Note: Speeds may be restricted further by specific chart notations or ATC instruction.",
+                "children": []
+              },
+              {
+                "id": "aod3_taskc_comm",
+                "title": "Holding Communications",
+                "description": "Report time and altitude/flight level upon initially entering the hold at the holding fix. Report leaving the assigned holding fix/point. Obtain and note the Expect Further Clearance (EFC) time from ATC. If EFC time arrives and no further clearance received, leave the hold at the EFC time. If communications are lost, leave the hold at the EFC time (or ETA at fix if no EFC given) and proceed according to lost comms procedures (AVE F / MEA).",
+                "children": []
+              },
+              {
+                "id": "aod3_taskc_risk",
+                "title": "Risk Management (Holding)",
+                "description": "Incorrect entry procedure, exceeding maximum holding speed, improper wind correction leading to excursions outside protected airspace, confusion about EFC time or lost communications procedures, failure to slow down prior to reaching the fix.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aod4",
+        "title": "Area of Operation IV: Flight by Reference to Instruments",
+        "description": "While primarily skill-based, oral questions focus on knowledge of instrument interpretation and aircraft control concepts under IFR.",
+        "children": [
+          {
+            "id": "aod4_task_ag",
+            "title": "Tasks A-G (Instrument Maneuvers)",
+            "description": "Knowledge elements underpinning instrument flight skills (Straight & Level, Changes of Airspeed, Constant Airspeed Climbs/Descents, Turns, Steep Turns, Recovery from Unusual Flight Attitudes).",
+            "children": [
+              {
+                "id": "aod4_scan",
+                "title": "Instrument Scan",
+                "description": "A continuous and logical sequence of observing instruments for attitude and performance information. Commonly involves cross-checking between primary instruments and supporting instruments, or using control/performance method (Attitude -> Performance -> Control -> Trim). Avoid fixation on any single instrument.",
+                "children": []
+              },
+              {
+                "id": "aod4_interpret",
+                "title": "Instrument Interpretation",
+                "description": "Understand what each instrument indicates about the aircraft's attitude and performance, and what it implies when cross-checked with other instruments. Recognize instrument errors and potential failures (partial panel scenarios).",
+                "children": []
+              },
+              {
+                "id": "aod4_control",
+                "title": "Aircraft Control",
+                "description": "Fundamental concept: Pitch + Power = Performance. Make smooth, positive control inputs based on instrument indications to achieve desired flight path. Use trim appropriately to relieve control pressures and maintain stable flight.",
+                "children": []
+              },
+              {
+                  "id": "aod4_stdturn",
+                  "title": "Standard Rate Turn",
+                  "description": "A turn rate of 3° per second, resulting in a 360° turn in 2 minutes. Approximate angle of bank required = True Airspeed (TAS) / 10 + 5. Use Turn Coordinator or Turn Rate Indicator to establish and maintain.",
+                  "children": []
+              },
+              {
+                  "id": "aod4_ua_high",
+                  "title": "Unusual Attitude Recovery (Nose High)",
+                  "description": "Recognize (decreasing airspeed, increasing altitude, high pitch attitude). React: Increase Power (full recommended), Lower Nose smoothly towards level flight attitude, Level Wings.",
+                  "children": []
+              },
+               {
+                  "id": "aod4_ua_low",
+                  "title": "Unusual Attitude Recovery (Nose Low)",
+                  "description": "Recognize (increasing airspeed, decreasing altitude, low pitch attitude). React: Reduce Power (idle recommended to prevent overspeed), Level Wings smoothly, Raise Nose smoothly towards level flight attitude.",
+                  "children": []
+               }
+            ]
+          },
+          {
+              "id": "aod4_risk",
+              "title": "Risk Management (Instrument Flight)",
+              "description": "Susceptibility to sensory illusions (the leans, Coriolis illusion, graveyard spiral, somatogravic illusion, etc.) leading to loss of control if pilot fails to trust instruments. Spatial disorientation. Inadequate instrument scan leading to deviations. Over-controlling the aircraft.",
+              "children": []
+          }
+        ]
+      },
+      {
+        "id": "aod5",
+        "title": "Area of Operation V: Navigation Systems",
+        "description": "Using NAVAIDs and RNAV systems for IFR flight.",
+        "children": [
+          {
+            "id": "aod5_taska",
+            "title": "Task A: Intercepting and Tracking Navigational Systems and DME Arcs",
+            "description": "(References PA.V.A.K1-K5, R1-R3)",
+            "children": [
+              {
+                "id": "aod5_taska_vor",
+                "title": "VOR Navigation",
+                "description": "Principles: VOR transmits radials (360 distinct courses) outward FROM the station. Radial is the magnetic course FROM station. Operation: Tune frequency, Identify (listen to Morse code or voice identifier), Test (check for NAV flag disappearance, needle deflection). Course Deviation Indicator (CDI) shows aircraft's lateral position relative to selected course (OBS setting). TO/FROM indicator shows aircraft position relative to station along the selected course line. Intercepting: Turn towards the needle, establish intercept angle (30-45° common depending on distance/closure rate), anticipate and lead rollout onto course. Tracking: Make small heading corrections towards the needle to maintain centerline. Reverse Sensing: Occurs if flying outbound with OBS set to inbound course, or vice-versa (needle deflection is opposite of needed correction) - always set desired course on OBS.",
+                "children": []
+              },
+              {
+                "id": "aod5_taska_gps",
+                "title": "GPS (RNAV) Navigation",
+                "description": "Select desired waypoint or load instrument procedure (DP, STAR, approach). CDI typically shows cross-track error (XTK) - distance off course centerline. Sensitivity (needle deflection per distance) often increases automatically as aircraft gets closer to waypoints and during approach phase (Terminal, Approach modes). Follow course guidance provided by CDI/HSI. Be aware of RAIM/WAAS status and requirements. Understand different GPS leg types (e.g., TF - Track to Fix, CF - Course to Fix, etc.) depicted on charts/MFD.",
+                "children": []
+              },
+              {
+                "id": "aod5_taska_dme",
+                "title": "DME (Distance Measuring Equipment)",
+                "description": "Provides slant range distance in nautical miles to/from the DME ground station (usually co-located with VOR/LOC). Slant range error is greatest when directly overhead station at high altitude. DME Arcs: Flight path maintaining constant distance from VOR/DME station. Technique: Use GPS overlay if available, or traditional method using RMI/DME or CDI/DME (e.g., \"Turn 10, Twist 10\" - turn slightly to stay on arc, adjust bearing pointer/OBS). Requires leading the turn onto the arc and leading the turn onto the inbound course from the arc.",
+                "children": []
+              },
+              {
+                "id": "aod5_taska_risk",
+                "title": "Risk Management (Intercept/Track)",
+                "description": "Incorrect frequency selection or station identification, misinterpreting TO/FROM indicator, reverse sensing confusion, failure to monitor RAIM/WAAS status, improper intercept angle leading to overshoot/undershoot, failure to apply wind correction resulting in deviation from course.",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "aod5_taskb",
+            "title": "Task B: Departure, En Route, and Arrival Operations",
+            "description": "(References PA.V.B.K1-K5, R1-R3)",
+            "children": [
+              {
+                "id": "aod5_taskb_dp",
+                "title": "Departure Procedures (DPs)",
+                "description": "Pre-planned IFR procedures providing obstacle clearance and transition from terminal area to en route structure.",
+                "children": [
+                    { "id": "aod5_taskb_dp_purpose", "title": "Purpose", "description": "Ensure obstacle clearance, reduce ATC workload and frequency congestion, sometimes used for noise abatement.", "children": [] },
+                    { "id": "aod5_taskb_dp_types", "title": "Types", "description": "Obstacle Departure Procedure (ODP - printed textually or graphically, provides obstacle clearance, may be flown without ATC clearance unless vectors assigned), Standard Instrument Departure (SID - always graphical, requires ATC clearance to fly, provides obstacle clearance and transition route).", "children": [] },
+                    { "id": "aod5_taskb_dp_find", "title": "Finding ODPs", "description": "Check the TPP/Chart Supplement for the \"Trouble T\" symbol (inverted black triangle with 'T') in the airport's minimums section; indicates non-standard takeoff minimums and/or published ODPs.", "children": [] },
+                    { "id": "aod5_taskb_dp_comply", "title": "Complying with DPs", "description": "Pilots must comply with an ODP/SID if accepted or assigned by ATC. If unable due to aircraft performance or other reasons, advise ATC 'Unable SID/ODP'. If no DP is assigned and diverse departure criteria are not met (e.g., low close-in obstacles), follow the ODP if one is published. Diverse Departure: Assumes standard climb gradient (200 ft/NM) after crossing departure end of runway (DER) at 35 ft. If no obstacles penetrate 40:1 slope from DER, can maintain runway heading to 400' AGL before turning on course.", "children": [] }
+                ]
+              },
+              {
+                "id": "aod5_taskb_enroute",
+                "title": "En Route Procedures",
+                "description": "Maintain course centerline, adhere to assigned altitude. Make position reports if in non-radar environment or requested. Monitor appropriate communication frequencies. Obtain weather updates as needed.",
+                "children": []
+              },
+              {
+                "id": "aod5_taskb_star",
+                "title": "Arrival Procedures (STARs - Standard Terminal Arrival Routes)",
+                "description": "Pre-planned IFR arrival routes simplifying transition from en route structure to approach phase.",
+                 "children": [
+                      { "id": "aod5_taskb_star_purpose", "title": "Purpose", "description": "Simplify complex arrival clearances, reduce frequency congestion, establish standard flow into terminal area.", "children": [] },
+                      { "id": "aod5_taskb_star_comply", "title": "Complying with STARs", "description": "Pilot must possess at least the approved textual description of the STAR; graphical chart is preferred. Comply with the assigned STAR routing and any published altitude and speed restrictions. A 'Descend Via' clearance requires adherence to all published altitude/speed restrictions unless explicitly cancelled or amended by ATC. If unable to meet a restriction, advise ATC immediately.", "children": [] }
+                 ]
+              },
+               {
+                  "id": "aod5_taskb_lostcomm",
+                  "title": "Lost Comms on DP/STAR",
+                  "description": "If cleared via a DP or STAR that has a specific published lost communications procedure, follow that procedure. Otherwise, if comms are lost while on a DP/STAR, revert to standard lost communications procedures (91.185 - AVE F / MEA).",
+                  "children": []
+               },
+              {
+                "id": "aod5_taskb_risk",
+                "title": "Risk Management (Departure/En Route/Arrival)",
+                "description": "Failure to check for or comply with ODPs leading to obstacle conflict, incorrect interpretation of complex DP/STAR charts, failure to meet altitude/speed restrictions on procedures, confusion regarding lost communications procedures while on a DP/STAR.",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+       {
+          "id": "aod6",
+          "title": "Area of Operation VI: Instrument Approach Procedures",
+          "description": "Executing instrument approaches.",
+          "children": [
+             {
+                "id": "aod6_concepts",
+                "title": "General Approach Concepts",
+                "description": "Fundamental elements applicable to various instrument approaches.",
+                "children": [
+                   { "id": "aod6_con_segments", "title": "Approach Segments", "description": "Initial Approach Segment (begins at Initial Approach Fix - IAF), Intermediate Approach Segment (positions aircraft for final descent), Final Approach Segment (begins at Final Approach Fix - FAF, aligned with runway), Missed Approach Segment (begins at Missed Approach Point - MAP).", "children": [] },
+                   { "id": "aod6_con_pt", "title": "Procedure Turn (PT)", "description": "A maneuver depicted by a barb symbol on plan view, enabling course reversal onto intermediate/final segment. Standard PT completion distance is 10 NM. Do not execute a Procedure Turn (remain on specified track) when receiving radar vectors to final, cleared for a Straight-in approach, established in holding pattern and subsequently cleared for approach, flying a NoPT transition route, or receiving a Timed approach clearance (Mnemonic: SNERT).", "children": [] },
+                   { "id": "aod6_con_min_alts", "title": "Minimum Altitudes on Approach", "description": "MSA (Minimum Safe/Sector Altitude - provides 1000' obstacle clearance within 25-30NM radius of a fix, for emergency use), Terminal Arrival Area (TAA - RNAV approach specific, replaces MSA, provides sectorized altitudes based on GPS position), MEA (Minimum Enroute Alt), MOCA (Min Obstruction Clrn Alt), Step-down fix minimum crossing altitudes, MDA (Minimum Descent Altitude - floor for non-precision approaches), DA (Decision Altitude - point on precision/APV approach to decide land/go missed).", "children": [] },
+                   { "id": "aod6_con_vis", "title": "Visibility Requirements", "description": "Required flight visibility (what pilot sees) must be met to descend below DA/MDA, may differ from reported ground visibility.", "children": [] },
+                   { "id": "aod6_con_categories", "title": "Aircraft Approach Categories", "description": "Based on 1.3 times the stall speed in landing configuration (Vso) at max certified landing weight. A: <91kts, B: 91kts to <121kts, C: 121kts to <141kts, D: 141kts to <166kts, E: >=166kts. Determines applicable minimums (DA/MDA/Visibility) and circling approach protected area radius.", "children": [] }
+                ]
+             },
+             {
+                "id": "aod6_taska",
+                "title": "Task A: Nonprecision Instrument Approach",
+                "description": "(References PA.VI.A.K1-K6, R1-R4) Approaches with only lateral guidance.",
+                "children": [
+                   { "id": "aod6_taska_types", "title": "Types", "description": "VOR, LOC (Localizer without Glideslope), RNAV (GPS) to LNAV or LP minimums, LDA (Localizer-type Directional Aid - not aligned with runway centerline), SDF (Simplified Directional Facility - less precise than LOC, wider course).", "children": [] },
+                   { "id": "aod6_taska_proc", "title": "Procedure Execution", "description": "Fly approach segments, respecting published altitudes (step-down fixes). Descend to the Minimum Descent Altitude (MDA) after passing the Final Approach Fix (FAF). Level off at MDA and continue towards the Missed Approach Point (MAP).", "children": [] },
+                   { "id": "aod6_taska_mda", "title": "MDA (Minimum Descent Altitude)", "description": "The lowest altitude to which descent is authorized on final approach where no electronic glideslope is provided. An aircraft cannot descend below MDA unless the required visual references for the runway are established.", "children": [] },
+                   { "id": "aod6_taska_map", "title": "MAP (Missed Approach Point)", "description": "The point on a non-precision approach at which a missed approach must be initiated if the required visual reference is not acquired. Defined by timing from the FAF, DME distance, GPS waypoint passage, or crossing a NAVAID located at the MAP.", "children": [] },
+                   { "id": "aod6_taska_vdp", "title": "VDP (Visual Descent Point)", "description": "A defined point on the final approach course of a non-precision straight-in approach procedure from which normal descent from the MDA to the runway touchdown point may be commenced, provided the required visual reference is established. Do not descend below MDA prior to reaching the VDP. Marked by a 'V' on the profile view. If no VDP is published, pilot can calculate an approximate point (MDA height AGL / 300 ≈ distance in NM from runway threshold).", "children": [] },
+                   { "id": "aod6_taska_rnav", "title": "RNAV Non-Precision Specifics (LNAV / LP)", "description": "LNAV (Lateral Navigation) provides GPS course guidance. LP (Localizer Performance) utilizes WAAS for improved lateral accuracy (angular guidance like a LOC) but does not provide vertical guidance, thus still has an MDA.", "children": [] }
+                ]
+             },
+             {
+                "id": "aod6_taskb",
+                "title": "Task B: Precision Instrument Approach",
+                "description": "(References PA.VI.B.K1-K6, R1-R4) Approaches with both lateral and vertical guidance.",
+                "children": [
+                   { "id": "aod6_taskb_types", "title": "Types", "description": "ILS (Instrument Landing System), RNAV (GPS) to LPV or LNAV/VNAV minimums. PAR (Precision Approach Radar - military/some civil, controller provides verbal glidepath/course guidance).", "children": [] },
+                   {
+                      "id": "aod6_taskb_ils",
+                      "title": "ILS Components",
+                      "description": "Ground-based system providing precise guidance.",
+                      "children": [
+                         { "id": "aod6_taskb_ils_loc", "title": "Localizer (LOC)", "description": "Provides lateral guidance along runway centerline. Frequency range 108.1-111.95 MHz (odd tenths). Identify by Morse code identifier (starts with 'I-'). Signal typically 3-6° wide. Useful coverage generally 10NM within 35° of course, 18NM within 10° of course.", "children": [] },
+                         { "id": "aod6_taskb_ils_gs", "title": "Glideslope (GS)", "description": "Provides vertical guidance along desired descent path (usually 3°). Frequency paired automatically with LOC frequency (UHF range). Intercept Glideslope from below to avoid false slope signals. GS unusable if LOC signal fails.", "children": [] },
+                         { "id": "aod6_taskb_ils_markers", "title": "Marker Beacons", "description": "Indicate positions along final approach course. Outer Marker (OM - Blue light, continuous dashes '---', typically at FAF/GS intercept). Middle Marker (MM - Amber light, alternating dot-dash '.-.-', approx 3500' from threshold, near DH for Cat I). Inner Marker (IM - White light, continuous dots '...', between MM and threshold, at DH for Cat II/III). Compass Locators (low power NDBs) can be co-located with OM or MM.", "children": [] },
+                         { "id": "aod6_taskb_ils_als", "title": "Approach Lighting System (ALS)", "description": "Provides visual transition from instrument to visual flight for landing. Know different types (e.g., MALSR, SSALR, ALSF-1, ALSF-2) and their components. Know which components (specifically red terminating bars or red side row bars) allow descent below 100' above Touchdown Zone Elevation (TDZE) when only the ALS is visible (Ref 91.175).", "children": [] }
+                      ]
+                   },
+                   { "id": "aod6_taskb_da", "title": "DA (Decision Altitude)", "description": "A specified altitude on a precision approach (or approach with vertical guidance like LPV, LNAV/VNAV) at which a missed approach must be initiated if the required visual reference to continue the approach has not been established.", "children": [] },
+                   { "id": "aod6_taskb_rnav", "title": "RNAV Precision/APV Specifics (LPV / LNAV/VNAV)", "description": "LPV (Localizer Performance with Vertical Guidance) utilizes WAAS for angular guidance both laterally and vertically, closely mimicking an ILS - results in a DA. LNAV/VNAV (Lateral Navigation / Vertical Navigation) provides lateral guidance (LNAV) and approved vertical guidance (either Baro-VNAV using altimeter settings or GPS vertical guidance) - results in a DA.", "children": [] }
+                ]
+             },
+             {
+                "id": "aod6_taskc",
+                "title": "Task C: Missed Approach",
+                "description": "(References PA.VI.C.K1-K3, R1-R3)",
+                "children": [
+                   { "id": "aod6_taskc_when", "title": "When to Execute Missed Approach", "description": "Must be executed upon arrival at the Missed Approach Point (MAP) or Decision Altitude (DA) if the required visual reference is not met; upon ATC instruction; if safe landing is no longer possible (e.g., unstable approach); loss of required navigation signals.", "children": [] },
+                   { "id": "aod6_taskc_proc", "title": "Missed Approach Procedure", "description": "Follow the published missed approach procedure depicted on the approach chart unless ATC issues alternate instructions. Typically involves initiating a climb straight ahead or turning towards a specific heading/course, climbing to a specified altitude, proceeding to a holding fix, and holding as published. Announce intentions to ATC: \"[Callsign] executing missed approach\". Apply climb power, pitch up for climb attitude, retract flaps/gear as appropriate, navigate according to the procedure.", "children": [] },
+                   { "id": "aod6_taskc_risk", "title": "Risk Management (Missed Approach)", "description": "Delaying the decision to go missed, improper execution of the published procedure (wrong heading/altitude/fix), confusion between ATC instructions and published procedure, failure to transition smoothly from approach to climb configuration.", "children": [] }
+                ]
+             },
+             {
+                "id": "aod6_taskd",
+                "title": "Task D: Circling Approach",
+                "description": "(References PA.VI.D.K1-K4, R1-R3)",
+                "children": [
+                   { "id": "aod6_taskd_purpose", "title": "Purpose of Circling", "description": "Flown when approach is conducted to one runway but landing intended on another. Required when final approach course alignment is greater than 30° from runway centerline, or when descent gradient from FAF to runway is too steep for a straight-in.", "children": [] },
+                   { "id": "aod6_taskd_mins", "title": "Circling Minimums", "description": "Published MDA and visibility minimums are typically higher than straight-in minimums for the same approach. Provides 300 ft obstacle clearance within the circling approach protected area.", "children": [] },
+                   { "id": "aod6_taskd_area", "title": "Circling Protected Area", "description": "The airspace within which obstacle clearance is guaranteed at circling MDA. Radius from runway thresholds depends on Aircraft Approach Category (e.g., Cat A: 1.3 NM radius). Newer TERPS criteria may use expanded radii based on circling altitude - check chart notes carefully.", "children": [] },
+                   { "id": "aod6_taskd_tech", "title": "Circling Technique", "description": "Maintain altitude at or above the circling MDA until the aircraft is continuously in a position from which a normal descent to landing on the intended runway can be made using normal maneuvers. Keep the intended runway environment in sight throughout the maneuver. Maneuver within the protected airspace radius.", "children": [] },
+                   { "id": "aod6_taskd_missed", "title": "Missed Approach from Circling", "description": "If visual contact with the runway environment is lost while circling, begin an initial climbing turn towards the landing runway. Continue the turn until established on the missed approach course specified for the original instrument approach procedure flown.", "children": [] },
+                   { "id": "aod6_taskd_risk", "title": "Risk Management (Circling)", "description": "High risk maneuver. Loss of visual contact with the runway environment, descending below circling MDA prematurely, exceeding protected airspace boundaries (especially with wind), spatial disorientation due to low altitude maneuvering.", "children": [] }
+                ]
+             },
+             {
+                "id": "aod6_taske",
+                "title": "Task E: Landing from a Straight-in or Circling Approach",
+                "description": "(References PA.VI.E.K1-K3, R1-R2)",
+                "children": [
+                   {
+                      "id": "aod6_taske_reqs",
+                      "title": "Requirements to Descend Below DA/MDA (FAR 91.175(c))",
+                      "description": "A pilot may not descend below DA/MDA unless all three conditions are met: 1. The aircraft is continuously in a position allowing for a descent to landing on the intended runway using normal maneuvers and a normal descent rate. 2. The flight visibility is not less than the visibility prescribed for the approach procedure being used. 3. At least one of the specified visual references for the intended runway is distinctly visible and identifiable.",
+                      "children": [
+                          { "id": "aod6_taske_visref_list", "title": "Required Visual References (at least one needed)", "description": "Approach Light System (ALS) - *Note: Pilot may descend to 100 ft above TDZE using ALS as reference, unless the red terminating bars or red side row bars are also visible.* Threshold, Threshold Markings, Threshold Lights. Runway End Identifier Lights (REIL). Visual Approach Slope Indicator (VASI/PAPI). Touchdown Zone, Touchdown Zone Markings, Touchdown Zone Lights. Runway, Runway Markings, Runway Lights.", "children": [] }
+                      ]
+                   },
+                   { "id": "aod6_taske_risk", "title": "Risk Management (Landing Phase)", "description": "Descending below minimums without acquiring required visual reference, landing long or fast after breaking out late ('duck under' tendency), unstable approach during visual segment, optical illusions near the ground in low visibility (e.g., runway width/slope illusions, fog patches).", "children": [] }
+                ]
+             }
+          ]
+       },
+       {
+          "id": "aod7",
+          "title": "Area of Operation VII: Emergency Operations",
+          "description": "Handling abnormal situations under IFR.",
+          "children": [
+             {
+                "id": "aod7_taska",
+                "title": "Task A: Loss of Communications",
+                "description": "(References PA.VII.A.K1-K2, R1 - Review FAR 91.185 & 91.187)",
+                "children": [
+                   { "id": "aod7_taska_proc", "title": "Procedure Overview", "description": "Set transponder to 7600. If in VMC, or if VMC is encountered, continue the flight under VFR and land as soon as practicable. Notify ATC of the situation upon landing. If remaining in IMC:", "children": [] },
+                   { "id": "aod7_taska_route", "title": "Route (IMC - AVE F)", "description": "Fly route in this order of priority: 1. Assigned: Route assigned in last ATC clearance. 2. Vectored: If being radar vectored, fly direct to the fix, route, or airway specified in vector clearance. 3. Expected: Route ATC has advised may be expected in a further clearance. 4. Filed: Route filed in the flight plan.", "children": [] },
+                   { "id": "aod7_taska_altitude", "title": "Altitude (IMC - MEA)", "description": "Fly the highest of the following altitudes for the segment being flown: 1. Minimum IFR Altitude (MEA or MOCA for the segment). 2. Expected: Altitude ATC has advised may be expected. 3. Assigned: Altitude assigned in the last ATC clearance.", "children": [] },
+                   {
+                      "id": "aod7_taska_clearancelimit",
+                      "title": "Leaving Clearance Limit (IMC)",
+                      "description": "Actions when reaching the clearance limit fix.",
+                      "children": [
+                          { "id": "aod7_taska_cl_is_iaf", "title": "If Limit is an IAF (Initial Approach Fix)", "description": "Commence descent and approach as close as possible to the Expect Further Clearance (EFC) time if one was received, or if none, as close as possible to the filed Estimated Time of Arrival (ETA).", "children": [] },
+                          { "id": "aod7_taska_cl_not_iaf", "title": "If Limit is NOT an IAF", "description": "At the EFC time (or if none received, upon arrival at the clearance limit), proceed to an IAF and commence descent and approach as close as possible to the filed ETA.", "children": [] }
+                      ]
+                   },
+                   { "id": "aod7_taska_risk", "title": "Risk Management (Lost Comms)", "description": "Failure to follow standardized lost communication procedures leads to potential conflict with other air traffic, deviating significantly from ATC's expected flight path, uncertainty for controllers.",
+                   "children": [] }
+                ]
+             },
+             {
+                "id": "aod7_tasks_b_f",
+                "title": "Tasks B-F: Loss of Instruments/Systems Failures",
+                "description": "Oral questions focus on recognition, immediate actions, and consequences.",
+                "children": [
+                   { "id": "aod7_task_gyrofail", "title": "Gyro Failure (Attitude/Heading)", "description": "Recognize failure (e.g., flag, precession, tumbling). Use backup instruments (Turn Coordinator for bank, Magnetic Compass for heading trend - mindful of errors, Standby AI if equipped). Transition to partial panel scan. Notify ATC of \"Partial Panel\" operations. Expect increased risk of spatial disorientation.", "children": [] },
+                   { "id": "aod7_task_pitotstaticfail", "description": "Recognize failure (unreliable ASI/ALT/VSI). Announce failure to ATC. Know effects of specific blockages (Pitot ram/drain, Static). Use Alternate Static Source if available (know POH corrections). Estimate airspeed using known pitch/power settings and GPS groundspeed. Estimate altitude trends using GPS altitude (geometric, less accurate) or radio altimeter (if available/reliable). Request assistance from ATC if needed.", "children": [] },
+                   { "id": "aod7_task_pfdfail", "title": "PFD Failure (Glass Cockpit)", "description": "Recognize failure (red 'X', blank screen). Use reversionary modes to display PFD data on MFD if available. Use backup/standby instruments. Announce failure to ATC. Simplify flight tasks, consider requesting vectors or a no-gyro approach if needed.", "children": [] },
+                   { "id": "aod7_task_gpsfail", "title": "GPS Failure/Loss of Signal", "description": "Recognize failure (e.g., loss of signal integrity, RAIM warning, flag). Announce failure to ATC. Revert to traditional ground-based navigation (VOR/LOC/DME) if available and appropriate for route/approach. Ensure conventional NAV radios are tuned and identified. Request vectors from ATC if needed for navigation.", "children": [] },
+                   { "id": "aod7_task_powerfail", "title": "Electrical/Power Failure", "description": "Recognize failure (e.g., ammeter discharge, flickering displays, loss of avionics). Check circuit breakers (check/reset once if permissible by POH). Follow POH checklist for electrical failure. Announce emergency to ATC. Be prepared for progressive loss of multiple systems (radios, navigation, flaps, gear indication, lighting). Battery may provide limited power for essential equipment - know what's on essential bus.", "children": [] },
+                   { "id": "aod7_task_b_f_risk", "title": "Risk Management (System Failures)", "description": "Delayed recognition of failure, applying incorrect compensatory actions, spatial disorientation (especially with partial panel), inability to navigate or communicate effectively, potentially making the situation worse through incorrect troubleshooting or procedures.", "children": [] }
+                ]
+             }
+          ]
+       },
+       {
+          "id": "essential_docs",
+          "title": "Essential IFR Documents for iPad/EFB",
+          "description": "Crucial documents to have readily available (electronically or paper) and know how to access quickly during IFR operations.",
+          "children": [
+              { "id": "docs_acs", "title": "FAA ACS - Instrument Rating Airplane", "description": "Airman Certification Standards: Outlines the knowledge, risk management, and skill elements required for the rating. Understand the tasks and standards.", "children": [] },
+              { "id": "docs_faraim", "title": "FAR/AIM", "description": "Federal Aviation Regulations / Aeronautical Information Manual: Especially Parts 61 (Certification), 91 (General Operating & Flight Rules), NTSB 830 (Accident Reporting), and relevant AIM chapters (e.g., Ch 1 Nav Aids, Ch 4 ATC, Ch 5 Air Traffic Procedures, Ch 7 Safety of Flight/Meteorology, Ch 8 Medical).", "children": [] },
+              { "id": "docs_poh", "title": "Aircraft POH/AFM", "description": "Pilot Operating Handbook / Airplane Flight Manual: Specific to your aircraft make/model/serial number. Know systems, performance, limitations, emergency procedures, and required IFR equipment/operation details (often in Supplements).", "children": [] },
+              { "id": "docs_enroute", "title": "IFR Enroute Low Altitude Charts", "description": "Charts covering your intended areas of operation. Know the legend and how to interpret symbols (airports, NAVAIDs, airways, fixes, altitudes - MEA/MOCA/MAA/MCA/MRA, special use airspace, etc.).", "children": [] },
+              { "id": "docs_tpp", "title": "IFR Terminal Procedures Publication (TPP) / Approach Charts", "description": "Contains Instrument Approach Procedures (IAPs), Departure Procedures (DPs), Standard Terminal Arrival Routes (STARs), and Airport Diagrams. Know how to read all sections of an approach plate (briefing strip, plan view, profile view, minimums sections, airport diagram).", "children": [] },
+              { "id": "docs_chartsupp", "title": "Chart Supplement (formerly A/FD)", "description": "Provides comprehensive information on airports (services, runways, NAVAID data), heliports, seaplane bases. Includes sections on preferred routes, VOR check points, Obstacle Departure Procedures (ODPs), IFR Alternate Minimums, etc.", "children": [] },
+              { "id": "docs_legends", "title": "IFR Chart Legends / Approach Plate Briefing Guide", "description": "Quick reference guides explaining symbols, icons, abbreviations, and data presented on enroute and approach charts. Many EFB apps integrate these.", "children": [] },
+              { "id": "docs_weather", "title": "Weather Application(s) / Sources", "description": "Reliable access to current METARs, TAFs, PIREPs, Radar imagery, Graphical Forecasts (GFA), AIRMETs/SIGMETs, Winds/Temps Aloft, etc. Know how to interpret the data presented.", "children": [] },
+              { "id": "docs_wb", "title": "Weight & Balance Calculator/Data", "description": "Current W&B information specific to your aircraft configuration for the planned flight.", "children": [] },
+              { "id": "docs_navlog", "title": "Navigation Log / Flight Plan Form", "description": "Organized log for tracking flight progress, fuel, frequencies, clearances, etc. (Digital or paper).", "children": [] },
+              {
+                  "id": "docs_acs_optional",
+                  "title": "Relevant Advisory Circulars (ACs - Optional)",
+                  "description": "Provide further guidance and interpretation on various topics.",
+                  "children": [
+                      { "id": "docs_ac_90108", "title": "AC 90-108 (Use of RNAV Systems)", "description": "Guidance on using Area Navigation systems.", "children": [] },
+                      { "id": "docs_ac_6165", "title": "AC 61-65 (Certification: Pilots/Instructors)", "description": "Includes required endorsements.", "children": [] },
+                      { "id": "docs_ac_006", "title": "AC 00-6 (Aviation Weather)", "description": "Comprehensive overview of weather phenomena relevant to aviation.", "children": [] },
+                      { "id": "docs_ac_0045", "title": "AC 00-45 (Aviation Weather Services)", "description": "Describes available weather products and services.", "children": [] }
+                  ]
+              }
+          ]
+       }
+    ]
+  }
